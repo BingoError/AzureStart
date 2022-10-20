@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApY+7iR3C1EyaIK1T/NQJuQAAAAACAAAAAAAQZgAAAAEAACAAAADv5PAJaeU4JZba+ORympA7cTM3xqJgJZIBgnzjRqM4bQAAAAAOgAAAAAIAACAAAAChXwFm8ixweaY850K317WgX0nYBEUMaloRx6+Ue04c4IAAAAANaHtRjKocQ4vtwH63DZivT/uVPqktHOzZaOy6YJ8bKnAnwwSuh2y3CTCBEwk0p/siQeU98k3thlSFzTo4nsLVtAAayS26J5eayttF63M+uCoFJjiyOCff85PaxzwL5tlGBcCodGFUjfJYxnpLnxqneIxMh+2MOdx3S15wI8FuFkAAAAAtqBo9dVJ11Nq83dtQEdNW6DVA8SUVGhgXTYUKBLwBH2FxyWHP3ZV1tzBQ9RGmyETEAQ0QryW7Y6EzQ78kXAvW</EncryptedPassword>
+    <History>True|2022-10-20T11:18:24.3739145Z;True|2022-10-20T13:44:58.0894109+03:00;True|2022-10-20T13:31:06.5997655+03:00;True|2022-10-20T12:41:19.8144657+03:00;True|2022-10-20T12:22:18.5769158+03:00;False|2022-10-20T12:20:05.0617194+03:00;False|2022-10-20T12:16:46.5287363+03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefCon">
+      <Value>Data Source=tcp:educationdbv.database.windows.net,1433%3bInitial Catalog=DataBase1%3bUser Id=CloudSAc60b5028%40educationdbv%3bPassword=41304130Line</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="WebApplication3.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:educationdbv.database.windows.net,1433%3bInitial Catalog=DataBase1%3bUser Id=CloudSAc60b5028%40educationdbv%3bPassword=41304130Line</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
